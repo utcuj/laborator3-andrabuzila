@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Bilet {
+
+	private static int numereAlese[] = new int[6];
+	public int [] getNumere()
+	{
+		return numereAlese;
+	}
+	public static void citireNumere() {
+		Scanner input = new Scanner(System.in);
+		
+		for (int i = 0; i<6;i++)
+			numereAlese[i] = input.nextInt();			
+
+	}
+
+}
